@@ -1,0 +1,41 @@
+.container {
+  @apply col-span-1;
+  .card {
+    @apply flex flex-col items-center justify-center gap-2 relative;
+    .selectIcon {
+      @apply border-2 border-grayCard rounded-full p-3 cursor-pointer;
+    }
+    .overlay {
+      @apply opacity-[96%] w-[80%]  gap-2  h-[55%] max-h-[55%] duration-300 absolute    top-7 flex justify-center items-center text-xl bg-white text-black font-semibold;
+    }
+    .HotCard {
+      @apply bg-redHot px-4 py-1 text-white absolute top-5 left-5 font-normal;
+    }
+
+    .hoverOvelay {
+      @apply opacity-0  w-[80%]  gap-2  h-[55%] max-h-[55%] duration-300 absolute    top-7 flex justify-center items-center text-xl bg-white text-black font-semibold;
+    }
+    .imgContainer {
+      @apply bg-grayCard w-[300px] h-[270px] p-5  flex justify-center items-center rounded-md;
+      .img {
+        @apply w-40 h-40;
+      }
+    }
+    .title {
+      @apply font-bold text-[18px] text-[#223263] max-w-[250px] text-center;
+    }
+    .wraper {
+      @apply flex items-center gap-3;
+
+      .pricediscount {
+        @apply font-bold text-[18px] text-[#40BFFF];
+      }
+      .price {
+        @apply line-through text-grayText;
+      }
+      .off {
+        @apply text-[#FB7181] font-bold;
+      }
+    }
+  }
+}

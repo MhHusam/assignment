@@ -1,0 +1,10 @@
+.container {
+  @apply py-6 max-w-[85%] m-auto;
+  .ul {
+    @apply flex items-center md:justify-end justify-center md:gap-28 gap-4 md:leading-8;
+
+    li {
+      @apply md:text-2xl text-sm font-medium hover:text-blueText cursor-pointer;
+    }
+  }
+}

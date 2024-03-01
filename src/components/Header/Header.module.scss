@@ -1,0 +1,33 @@
+.container {
+  .line {
+    @apply bg-[#FAFAFB] h-[1.8px]  w-full;
+  }
+  .headContainer {
+    @apply flex justify-between max-w-[85%] m-auto;
+  }
+
+  .rightElements {
+    @apply flex items-center md:gap-3 gap-1;
+    .element {
+      @apply md:text-[20px] text-[10px];
+    }
+    .profile {
+      @apply flex items-center gap-1;
+    }
+    .search {
+      @apply flex items-center gap-1;
+      .elementCount {
+        @apply md:text-[20px] text-[10px] text-greyLigt;
+      }
+    }
+  }
+  .leftElements {
+    @apply flex gap-1 items-center md:text-[20px] text-[10px];
+    .lang {
+      @apply flex gap-2 items-center   font-normal;
+      span {
+        @apply md:text-[20px] text-[10px];
+      }
+    }
+  }
+}
