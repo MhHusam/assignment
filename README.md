@@ -38,20 +38,20 @@ Currently, two official plugins are available:
 
 ## screen 
 Home page
- ![Text Coverage]([https://github.com/MhHusam/assignment/blob/main/screensshots/homepage.png])
+ ![Text Coverage](https://github.com/MhHusam/assignment/blob/main/screensshots/homepage.png)
 
 
  Cart page
 
-![Text Coverage]([https://github.com/MhHusam/assignment/blob/main/screensshots/cartPage.png])
+![Text Coverage](https://github.com/MhHusam/assignment/blob/main/screensshots/cartPage.png)
  
 responsive photos
 
-![Text Coverage]([https://github.com/MhHusam/assignment/blob/main/screensshots/Vite-React-TS%20(5).png])
-![Text Coverage]([https://github.com/MhHusam/assignment/blob/main/screensshots/Vite-React-TS%20(4).png])
-![Text Coverage]([https://github.com/MhHusam/assignment/blob/main/screensshots/Vite-React-TS%20(3).png])
-![Text Coverage]([https://github.com/MhHusam/assignment/blob/main/screensshots/Vite-React-TS%20(2).png])
-![Text Coverage]([https://github.com/MhHusam/assignment/blob/main/screensshots/Vite-React-TS%20(1).png])
+![Text Coverage](https://github.com/MhHusam/assignment/blob/main/screensshots/Vite-React-TS%20(5).png)
+![Text Coverage](https://github.com/MhHusam/assignment/blob/main/screensshots/Vite-React-TS%20(4).png)
+![Text Coverage](https://github.com/MhHusam/assignment/blob/main/screensshots/Vite-React-TS%20(3).png)
+![Text Coverage](https://github.com/MhHusam/assignment/blob/main/screensshots/Vite-React-TS%20(2).png)
+![Text Coverage](https://github.com/MhHusam/assignment/blob/main/screensshots/Vite-React-TS%20(1).png)
 
 
 
