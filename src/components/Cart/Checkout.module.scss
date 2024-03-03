@@ -1,0 +1,44 @@
+.imgContainer {
+  @apply bg-grayCard w-[130px]    p-1 px-3  flex justify-center items-center rounded-md;
+  .img {
+    @apply w-[130px]  h-[94px];
+  }
+}
+
+.line {
+  @apply bg-[#F6F7F8] h-[2px] w-full max-w-[90%] my-12;
+}
+
+.CartItemsContainer {
+  @apply grid grid-cols-5 place-items-start   items-center;
+  .li1 {
+    @apply col-span-2 flex items-center gap-3;
+  }
+  .removeIcon {
+    @apply flex items-center gap-1 relative col-span-2;
+    .icon {
+      @apply text-[#FF4252] bg-grayCard   p-3 w-1 h-1 flex justify-center items-center rounded-full;
+    }
+  }
+  .title {
+    @apply max-w-[35%];
+  }
+  .quantity {
+    @apply bg-grayCard px-5 py-2 flex gap-4;
+    .icon {
+      @apply text-blueText;
+    }
+  }
+}
+.searchContainer {
+  @apply flex justify-center items-center  rounded-l-md pb-28 overflow-hidden place-self-start self-start col-span-4;
+  .inputContainer {
+    @apply border-solid   flex   items-center border-[2.5px] border-[#F1F3F4]   border-r-0  relative;
+  }
+  .input {
+    @apply w-full py-4 pl-4  md:placeholder:text-[18px] placeholder:text-[12px]   placeholder:text-[#262626]/30  outline-none;
+  }
+  .btnSearch {
+    @apply bg-[#33A0FF] font-semibold md:text-[20px] text-[20px]  w-fit cursor-pointer   h-full text-white px-6 py-[15px] rounded-r-sm;
+  }
+}

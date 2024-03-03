@@ -1,5 +1,11 @@
 .container {
-  @apply py-6 max-w-[85%] m-auto;
+  .Logo {
+    @apply flex gap-2 items-center;
+    h2 {
+      @apply text-lg font-bold;
+    }
+  }
+  @apply py-6 max-w-containerMax m-auto;
   .ul {
     @apply flex items-center md:justify-end justify-center md:gap-28 gap-4 md:leading-8;
 

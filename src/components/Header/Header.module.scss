@@ -3,17 +3,25 @@
     @apply bg-[#FAFAFB] h-[1.8px]  w-full;
   }
   .headContainer {
-    @apply flex justify-between max-w-[85%] m-auto;
+    @apply flex justify-between max-w-containerMax m-auto py-3;
   }
 
   .rightElements {
-    @apply flex items-center md:gap-3 gap-1;
+    @apply flex items-center md:gap-4 gap-1;
     .element {
-      @apply md:text-[20px] text-[10px];
+      @apply md:text-[20px] text-[10px] cursor-pointer;
     }
     .profile {
-      @apply flex items-center gap-1;
+      @apply flex items-center gap-1 cursor-pointer;
     }
+
+    .cartContainer {
+      @apply relative cursor-pointer;
+      .cartCountdev {
+        @apply absolute text-xs text-white font-semibold flex justify-center items-center -top-3 -right-3 bg-redHot/80 rounded-full w-5 h-5;
+      }
+    }
+
     .search {
       @apply flex items-center gap-1;
       .elementCount {
@@ -22,9 +30,9 @@
     }
   }
   .leftElements {
-    @apply flex gap-1 items-center md:text-[20px] text-[10px];
+    @apply flex gap-2 items-center md:text-[20px] text-[10px];
     .lang {
-      @apply flex gap-2 items-center   font-normal;
+      @apply flex gap-2 items-center   font-normal cursor-pointer;
       span {
         @apply md:text-[20px] text-[10px];
       }

@@ -3,6 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      maxWidth: {
+        containerMax: "85%",
+      },
       colors: {
         blueText: "#33A0FF",
         blueLight: "#BCDDFE",

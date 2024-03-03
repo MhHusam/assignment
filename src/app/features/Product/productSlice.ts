@@ -4,10 +4,11 @@ export interface ProductShap {
   id: number;
   title: string;
   price: string;
-  category: string;
-  description: string;
+
   image: string;
-  rate: {
+  // description: string;
+  // category: string;
+  rating: {
     rate: number;
     count: number;
   };
@@ -17,11 +18,14 @@ export interface ProductsState {
   data: ProductShap[];
   fetchStatus: "pending" | "succeeded" | "failed";
 }
-
+//    func to fetch all products
 export const fetchAllProducts = createAsyncThunk(
   "fetchAllProducts",
   async (apiUrl: string) => {
     try {
+      //   a delay of two seconds for testing to  show skeleton of products
+      await new Promise((resolve) => setTimeout(resolve, 2000));
+
       const response = await fetch(apiUrl);
 
       if (!response.ok) {

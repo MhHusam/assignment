@@ -1,0 +1,55 @@
+.container {
+  @apply overflow-hidden;
+  ////////////////////////////////////////////////////////
+  .shopNow {
+    @apply relative bg-[#40BFFF] h-[70vh]  text-white;
+    .containerBox {
+      @apply max-w-[90%] m-auto  flex flex-col gap-3 justify-center h-full;
+      .img {
+        @apply absolute -top-[20%] right-0;
+      }
+      .head1 {
+        @apply font-medium text-[55px] leading-[80px];
+      }
+      .head2 {
+        @apply text-[24px] leading-[24px];
+      }
+      .button {
+        @apply font-semibold text-[20px] leading-[30px]  ;
+      }
+    }
+  }
+
+  ////////////////////////////////////////////////////////
+  .shipping {
+    @apply flex md:flex-row flex-col gap-10 justify-around items-center py-44;
+    li {
+      @apply flex flex-col gap-10 items-center;
+    }
+    p {
+      @apply font-medium text-[27px] leading-[40px] text-blackText;
+    }
+  }
+  ////////////////////////////////////////////////////////
+  .featuredContainer {
+    @apply py-10;
+    .featured {
+      @apply text-center  font-semibold text-[35px] text-blackText leading-[52px];
+    }
+  }
+
+  ////////////////////////////////////////////////////////
+
+  .searchContainer {
+    @apply flex justify-center items-center  rounded-l-md pb-28 overflow-hidden;
+    .inputContainer {
+      @apply border-solid  flex   items-center border-[2.5px] border-blueLight w-[35%] border-r-0  relative;
+    }
+    .input {
+      @apply w-full py-4 pl-4  md:placeholder:text-[18px] placeholder:text-[12px]   placeholder:text-[#262626]/30  outline-none;
+    }
+    .btnSearch {
+      @apply bg-[#40BFFF] font-semibold md:text-[20px] text-[20px]  w-fit cursor-pointer   h-full text-white px-6 py-[15px] rounded-r-sm;
+    }
+  }
+}
