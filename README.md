@@ -36,13 +36,13 @@ A
 - Get all Product from https://fakestoreapi.com/ .
 - make user can select product and add it to cart in global state
 - Get cart  from https://fakestoreapi.com/ . 
-( https://medium.com/@yamen.abd98/clean-architecture-in-flutter-mvvm-bloc-dio-79b1615530e1 )
+
 
  
  
 
 ## screen 
-
+ ![Text Coverage](https://github.com/YAMMEN98/ny-times-flutter-app/blob/main/test_coverage.png)
  
 
  
