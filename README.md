@@ -25,7 +25,7 @@ A
 
 ## Installing
 
-- Clone the repository ```git clone https://github.com/YAMMEN98/ny-times-flutter-app.git```
+- Clone the repository 
 - Open the project in VS Code.
 - run npm install
 -  run npm dev
@@ -36,7 +36,7 @@ A
 - Get all Product from https://fakestoreapi.com/ .
 - make user can select product and add it to cart in global state
 - Get cart  from https://fakestoreapi.com/ . 
- https://medium.com/@yamen.abd98/clean-architecture-in-flutter-mvvm-bloc-dio-79b1615530e1 
+( https://medium.com/@yamen.abd98/clean-architecture-in-flutter-mvvm-bloc-dio-79b1615530e1 )
 
  
  
