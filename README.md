@@ -1,30 +1,57 @@
-# React + TypeScript + Vite
+# React E-comm assignment
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ 
+# Articles App
 
-## Expanding the ESLint configuration
+ 
+A  
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+ 
 
-- Configure the top-level `parserOptions` property like this:
+## Technologies & Libraries used 
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- ReactJS
+- React-router-dom
+- Redux toolkit
+- Sass
+- Tailwind
+- VS Code
+ 
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Installing
+
+- Clone the repository ```git clone https://github.com/YAMMEN98/ny-times-flutter-app.git```
+- Open the project in VS Code.
+- run npm install
+-  run npm dev
+   
+
+## Feature
+
+- Get all Product from https://fakestoreapi.com/ .
+- make user can select product and add it to cart in global state
+- Get cart  from https://fakestoreapi.com/ . 
+ https://medium.com/@yamen.abd98/clean-architecture-in-flutter-mvvm-bloc-dio-79b1615530e1 
+
+ 
+ 
+
+## screen 
+
+ 
+
+ 
+
+## Author
+
+Mohammed hussam kheami - Mid Front-end Developer;
+
+ 
+ 
+ 
+ 
